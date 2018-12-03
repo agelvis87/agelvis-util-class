@@ -1,5 +1,8 @@
 package com.acarreno.model;
 
+import com.acarreno.enums.CivilStatusType;
+import com.acarreno.enums.GenderType;
+
 import java.time.LocalDateTime;
 
 public class PersonDTO {
@@ -14,7 +17,9 @@ public class PersonDTO {
 
   private LocalDateTime birthDate;
 
-  private String civilStatus;
+  private CivilStatusType civilStatus;
+
+  private GenderType gender;
 
   public String getCompleteName() {
     return name + " " + lastName;
@@ -44,7 +49,7 @@ public class PersonDTO {
     this.lastName = lastName;
   }
 
-  public int getAge() {
+  public Integer getAge() {
     return age;
   }
 
@@ -60,12 +65,26 @@ public class PersonDTO {
     this.birthDate = birthDate;
   }
 
-  public String getCivilStatus() {
+  public CivilStatusType getCivilStatus() {
     return civilStatus;
   }
 
-  public void setCivilStatus(String civilStatus) {
+  public void setCivilStatus(CivilStatusType civilStatus) {
     this.civilStatus = civilStatus;
+  }
+
+  public GenderType getGender() {
+    return gender;
+  }
+
+  public void setGender(GenderType gender) {
+    this.gender = gender;
+  }
+
+  @Override
+  public String toString() {
+    return "PersonDTO [id=" + id + ", name=" + name + ", lastName=" + lastName + ", age=" + age
+        + ", birthDate=" + birthDate + ", civilStatus=" + civilStatus + ", gender=" + gender + "]";
   }
 
 }
