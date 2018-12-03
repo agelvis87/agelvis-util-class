@@ -79,7 +79,6 @@ public enum SamplesPerson {
     this.gender = gender;
   }
 
-
   // ================
   // Metodos publicos
   // ================

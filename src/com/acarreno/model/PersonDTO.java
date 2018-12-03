@@ -5,7 +5,16 @@ import com.acarreno.enums.GenderType;
 
 import java.time.LocalDateTime;
 
+/**
+ * 
+ * @author Agelvis Carreno
+ *
+ */
 public class PersonDTO {
+  
+  // ==================
+  // Atributos privados
+  // ==================
 
   private String id;
 
@@ -20,6 +29,10 @@ public class PersonDTO {
   private CivilStatusType civilStatus;
 
   private GenderType gender;
+  
+  // ================
+  // Metodos publicos
+  // ================
 
   public String getCompleteName() {
     return name + " " + lastName;

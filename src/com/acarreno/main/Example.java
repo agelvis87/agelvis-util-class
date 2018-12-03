@@ -3,6 +3,11 @@ package com.acarreno.main;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 
+/**
+ * 
+ * @author Agelvis Carreno
+ *
+ */
 public class Example {
 
   public static void main(String args[]) {

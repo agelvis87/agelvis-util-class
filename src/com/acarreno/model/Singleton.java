@@ -1,5 +1,10 @@
 package com.acarreno.model;
 
+/**
+ * 
+ * @author Agelvis Carreno
+ *
+ */
 public class Singleton {
 
   private static Singleton singleton;
