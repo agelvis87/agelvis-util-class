@@ -1,6 +1,6 @@
-package com.agelvis.example.main;
+package com.acarreno.main;
 
-import com.agelvis.example.model.Singleton;
+import com.acarreno.model.Singleton;
 
 public class Pruebas {
 

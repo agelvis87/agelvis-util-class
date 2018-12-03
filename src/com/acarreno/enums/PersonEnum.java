@@ -1,6 +1,6 @@
-package com.agelvis.example.enums;
+package com.acarreno.enums;
 
-import com.agelvis.example.model.PersonDTO;
+import com.acarreno.model.PersonDTO;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

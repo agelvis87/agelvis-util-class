@@ -1,8 +1,7 @@
-package com.agelvis.example.lambda;
+package com.acarreno.lambda;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 public class ExampleComparator {
 

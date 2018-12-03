@@ -1,7 +1,7 @@
-package com.agelvis.example.lambda;
+package com.acarreno.lambda;
 
-import com.agelvis.example.enums.PersonEnum;
-import com.agelvis.example.model.PersonDTO;
+import com.acarreno.enums.PersonEnum;
+import com.acarreno.model.PersonDTO;
 
 import java.util.Comparator;
 import java.util.List;

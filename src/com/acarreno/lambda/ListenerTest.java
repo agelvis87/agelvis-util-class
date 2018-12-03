@@ -1,4 +1,4 @@
-package com.example.lambda;
+package com.acarreno.lambda;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

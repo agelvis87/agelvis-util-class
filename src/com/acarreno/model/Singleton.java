@@ -1,4 +1,4 @@
-package com.agelvis.example.model;
+package com.acarreno.model;
 
 public class Singleton {
 
